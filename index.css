@@ -1,0 +1,170 @@
+﻿/* === FONTS === */
+
+/* Sofia Pro */
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("assets/font/SofiaPro/SofiaProBold.woff2") format("woff2"), url("assets/font/SofiaPro/SofiaProBold.woff") format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("assets/font/SofiaPro/SofiaProRegular.woff2") format("woff2"), url("assets/font/SofiaPro/SofiaProRegular.woff") format("woff");
+}
+
+/* === ALL === */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #262a41;
+    margin: 0px;
+    color: #262a41;
+    font-size: 12px;
+}
+
+*:focus {
+    outline: none;
+}
+
+button {
+    font-size: 12px;
+}
+
+/* === Generic === */
+
+/* flex-direction */
+.fd-row {
+    flex-direction: row;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+/* text-align */
+.t-center {
+    text-align: center;
+}
+
+.t-right {
+    text-align: right;
+}
+
+/* align-self */
+.aself-center {
+    align-self: center;
+}
+
+/* align-items */
+.aitems-center {
+    align-items: center;
+}
+
+/* display */
+
+.hide {
+    display: none !important;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* display */
+.d-flex {
+    display: flex;
+}
+
+.d-inlineFlex {
+    display: inline-flex;
+}
+
+.d-inlineBlock {
+    display: inline-block;
+}
+
+/* margin */
+.my-1 {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+.my-2 {
+    margin-top: 7.5px !important;
+    margin-bottom: 7.5px !important;
+}
+
+.mx-1 {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+
+.mx-2 {
+    margin-left: 7.5px !important;
+    margin-right: 7.5px !important;
+}
+
+.ml-1 {
+    margin-left: 4px !important;
+}
+
+.ml-2 {
+    margin-left: 7.5px !important;
+}
+
+.ml-5 {
+    margin-left: 30px !important;
+}
+
+.mt-2 {
+    margin-top: 7.5px !important;
+}
+
+.mt-3 {
+    margin-top: 10px !important;
+}
+
+.mt-4 {
+    margin-top: 20px !important;
+}
+
+.mt-5 {
+    margin-top: 30px !important;
+}
+
+/* justify-content */
+.jc-center {
+    justify-content: center;
+}
+
+.jc-spaceAround {
+    justify-content: space-around;
+}
+
+.jc-spaceBetween {
+    justify-content: space-between;
+}
+
+.jc-flexEnd {
+    justify-content: flex-end;
+}
+
+/* width */
+.w-100 {
+    width: 100%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-49 {
+    width: 49%;
+}

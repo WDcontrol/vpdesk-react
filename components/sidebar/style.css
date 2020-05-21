@@ -1,0 +1,33 @@
+﻿.section-leftSideBar {
+    transition: width 1.5s ease-in-out;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    padding-top: 10px;
+    left: 0;
+    overflow-x: hidden;
+    color: white;
+}
+
+.section-leftSideBar.isOpen {
+    width: 50%;
+}
+
+.section-leftSideBar.isClose {
+    width: 25%;
+}
+
+.section-leftSideBar > .section-leftSideBar-main {
+    transition: padding-top 1.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-leftSideBar.isOpen > .section-leftSideBar-main {
+    padding-top: 10vh;
+}
+
+.section-leftSideBar.isClose > .section-leftSideBar-main {
+    padding-top: 2vh;
+}
