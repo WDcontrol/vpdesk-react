@@ -1,0 +1,112 @@
+#application {
+  height:100%;
+
+  .action-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 40px;
+    align-items: center;
+  }
+  
+  .action-bar__title {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Poppins";
+  }
+  
+  .input {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .input__input {
+    border-radius: 3px;
+    border: 1px solid #374052;
+    width: 89%;
+    min-width: 250px;
+    background-color: #ffffff;
+    height: 40px;
+  }
+  
+  .input__input::placeholder {
+    color: #a8aab7;
+  }
+  
+  .input__label {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 8px;
+    background-color: #fff;
+    padding: 0 5px;
+  }
+  
+  .main-content {
+    overflow: auto;
+    height: 87%;
+    overflow-x: hidden;
+    padding: 0 40px;
+  }
+  
+  .correctif {
+    padding-bottom: 90px;
+  }
+  
+  .correctif__tracking {
+    display: flex;
+    align-items: center;
+  }
+  
+  .correctif__body {
+    padding: 15px 0;
+  }
+  
+  .tracking__details {
+    font-weight: bold;
+    padding: 0 7px;
+  }
+  
+  .tracking__people {
+    height: 25px;
+    border-radius: 50%;
+  }
+  
+  .attachment__item {
+    border-radius: 3px;
+    background-color: #f5f6fa;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 2px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .attachment__name {
+    padding: 0 5px;
+  }
+  
+  .attachment__size {
+    color: #8c8c8c;
+    padding: 0 5px;
+  }
+  
+  .attachment__logo .MuiSvgIcon-root {
+    padding: 0px 5px;
+    font-size: 20px;
+  }
+  .keywords {
+    width: 60%;
+    border-left: 3px solid #e7e9ef;
+    padding-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .keyword__item {
+    border-radius: 4px;
+    background-color: #262a41;
+    padding: 5px 9px;
+    color: #ffffff;
+    margin: 3.5px 2.5px;
+    display: inline-block;
+  }
+}

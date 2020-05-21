@@ -1,0 +1,143 @@
+#exchange {
+  
+  .action-bar {
+    padding: 20px 40px;
+  }
+  
+  .action-bar__button {
+    color: #ffffff;
+    background-color: #18c27f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .action-bar__button_black {
+    background-color: black;
+  }
+  
+  .action-bar__label {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 30px;
+    font-family: "Sofia Pro";
+  }
+  
+  .section-rightContent__chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .chat {
+    height: 80%;
+  }
+  
+  .chat__bottom {
+    display: flex;
+    padding: 15px;
+  }
+  
+  .chat__separator {
+    width: 93%;
+    border-bottom: 1px solid rgba(38, 42, 65, 0.15);
+    margin: auto;
+    padding-bottom: 5px;
+  }
+  
+  .chat__input {
+    width: 100%;
+    font-size: 14px;
+    border: none;
+  }
+  
+  .chat__input::placeholder {
+    color: rgba(38, 42, 65, 0.4);
+  }
+  
+  .icon {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+  
+  .icon_attachment {
+    color: #abadb6;
+  }
+  
+  .chat__message {
+    display: flex;
+    padding: 25px;
+    align-items: flex-end;
+  }
+  
+  .chat__message_sent {
+    flex-direction: row-reverse;
+  }
+  
+  .person-icon {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .chat__body {
+    height: 90%;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+  }
+  
+  .chat__message__main-information {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px 5px 0;
+  }
+  
+  .chat__message__tracking {
+    color: #262a41;
+    font-size: 12px;
+    margin: 2px 2px 0px;
+  }
+  
+  .chat__message_sent .chat__message__tracking {
+    text-align: right;
+  }
+  
+  .chat__message_sent .chat__message__items {
+    color: #ffffff;
+    align-items: flex-end;
+  }
+  
+  .chat__message_received .chat__message__items {
+    align-items: flex-start;
+  }
+  
+  .chat__message__items {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+  }
+  
+  .chat__message__item {
+    padding: 12px;
+    margin: 2px;
+  }
+  
+  .chat__message_sent .chat__message__item {
+    border-radius: 12px 12px 0 12px;
+    background-color: #262a41;
+  }
+  
+  .chat__message_received .chat__message__item {
+    border-radius: 12px 12px 12px 0;
+    background-color: #f5f6fa;
+  }
+}

@@ -1,0 +1,170 @@
+#ticketAdd {
+    body {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #333333;
+        display: flex;
+      }
+      
+      .card {
+        background-color: #ffffff;
+        margin: auto;
+        width: 80%;
+        border-radius: 4px;
+      }
+      
+      .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+        border-bottom: 1px solid #dadada;
+      }
+      
+      .top-bar__title {
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 600;
+      }
+      
+      .top-bar__right {
+        display: flex;
+        align-items: center;
+      }
+      
+      .top-bar__save-draft {
+        margin: 0 20px;
+        padding: 6px 12px;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        color: #898989;
+      }
+      
+      .top-bar__close {
+        cursor: pointer;
+      }
+      
+      .lifecycle {
+        display: flex;
+        padding-top: 25px;
+      }
+      
+      .lifecycle__ligne {
+        height: 1px;
+        width: 104px;
+        border-bottom: 1px solid #dadada;
+        margin: 14px 10px 0 10px;
+      }
+      
+      .lifecycle__number {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #ebebeb;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      
+      .lifecycle__label {
+        position: absolute;
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 50px;
+      }
+      
+      .lifecycle__elem_active .lifecycle__number {
+        background-color: #18c27f;
+        color: #ffffff;
+      }
+      
+      .lifecycle__elem_active .lifecycle__label {
+        color: #333333;
+      }
+      
+      .lifecycle__elem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #878787;
+      }
+      
+      .title {
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 30px;
+      }
+      
+      .add-ticket__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .app-choice {
+        padding-top: 80px;
+      }
+      
+      .app-choice__items,
+      .subject__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      
+      .subject__items {
+        width: 80%;
+      }
+      
+      .subject {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .app-choice__item__title {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      
+      .app-choice__item {
+        border-radius: 4px;
+        border: 1px solid #4d5565;
+        width: 290px;
+        padding: 10px 15px;
+        margin: 5px;
+      }
+      
+      .app-choice__item_active {
+        color: #18c27f;
+        border-color: #18c27f;
+      }
+      
+      .app-choice__item__guarantee__status_over {
+        color: #c21818;
+      }
+      
+      .subject__item {
+        border-radius: 4px;
+        border: 1px solid #4d5565;
+        margin: 5px;
+        width: 170px;
+        min-height: 105px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      
+      .subject__item__title {
+        margin-top: 5px;
+        font-weight: bold;
+        padding: 5px;
+        text-align: center;
+      }
+      
+}

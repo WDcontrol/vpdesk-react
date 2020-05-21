@@ -1,0 +1,200 @@
+#library { 
+  height:100%;
+.action-bar {
+    padding: 20px 40px;
+  }
+  
+  .action-bar__main {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-bar__title {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Poppins";
+    padding-right: 10px;
+  }
+  
+  .action-bar__icon {
+    padding: 0 10px;
+  }
+  
+  .action-bar__path_deactivate {
+    color: #939393;
+  }
+  
+  .main-content {
+    height: 88%;
+    overflow: hidden;
+    padding: 0 40px;
+  }
+  
+  .librairie {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .librairie__header {
+    background-color: rgba(38, 42, 65, 0.04);
+  }
+  
+  .librairie__checkbox {
+    width: 15px;
+  }
+  
+  /* size fixed to align columns */
+  .librairie__header__title_created-on,
+  .librairie__item__created-on {
+    width: 100px;
+  }
+  
+  .librairie__header__title_name,
+  .librairie__item__name {
+    width: auto;
+  }
+  
+  .librairie__header__title_size,
+  .librairie__item__size {
+    width: 80px;
+  }
+  
+  .librairie__draggable {
+    position: relative;
+    color: #d7d7d7;
+    width: 10px;
+  }
+  
+  .librairie__item > .librairie__draggable {
+    opacity: 0;
+  }
+  
+  .librairie__item:hover > .librairie__draggable {
+    opacity: 1;
+  }
+  
+  .librairie__draggable__icon {
+    font-size: 17px;
+  }
+  
+  .librairie__header .librairie__draggable {
+    opacity: 0;
+  }
+  
+  .librairie__header__title {
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding: 10px 0;
+    height: 28px;
+  }
+  
+  .librairie__header__title_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .librairie__header__title_name-icon {
+    font-size: 18px;
+  }
+  
+  .librairie__header__options .MuiSvgIcon-root {
+    visibility: hidden;
+  }
+  
+  .librairie__header__options,
+  .librairie__item__options {
+    width: 100px;
+  }
+  
+  .librairie__body {
+    text-align: center;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .librairie__body__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .librairie__body__table td {
+    padding: 5px 0;
+  }
+  
+  .librairie__item__container {
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+  }
+  
+  .librairie__item__container,
+  .librairie__header__title_icon {
+    min-width: 85px;
+    max-width: 85px;
+    width: 85px;
+  }
+  
+  .librairie__item__name {
+    font-weight: 600;
+  }
+  
+  .librairie__item__size,
+  .librairie__item__created-on {
+    color: #939393;
+  }
+  
+  .librairie__item > .librairie__item__options {
+    opacity: 0;
+  }
+  
+  .librairie__item__options:hover {
+    opacity: 1;
+  }
+  
+  .librairie__item:hover > .librairie__item__options {
+    opacity: 1;
+  }
+  
+  .librairie__item:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .librairie__item__icon {
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .librairie__item__icon_folder {
+    font-size: 35px;
+    color: #6fc2ff;
+  }
+  
+  .librairie__item__info {
+    color: #a8aab7;
+  }
+  
+  .librairie__item__icon_word {
+    background-color: #2c7cd3;
+  }
+  
+  .librairie__item__icon_excel {
+    background-color: #22a366;
+  }
+  
+  .librairie__item__icon_pdf {
+    background-color: #c62020;
+  }
+  
+  .librairie__item__icon_powerpoint {
+    background-color: #c64220;
+  }
+}

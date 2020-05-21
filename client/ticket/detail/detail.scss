@@ -1,0 +1,165 @@
+#ticketDetail {
+    .action-bar {
+        padding: 20px 40px;
+      }
+      
+      .action-bar__button-bar {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .action-bar__button {
+        color: #ffffff;
+        background-color: #18c27f;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 40px;
+        width: 79px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .action-bar__label {
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 30px;
+        font-family: "Sofia Pro";
+      }
+      
+      .action-bar__button_black {
+        background-color: black;
+      }
+      
+      .details {
+        padding: 0 40px;
+        overflow-y: scroll;
+        height: 82%;
+        overflow-x: hidden;
+      }
+      
+      .details__main-information {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .details__item {
+        padding: 20px 40px 20px 0;
+      }
+      
+      .details__item__full-width {
+        width: 100%;
+      }
+      
+      .details__item__label {
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "Poppins";
+      }
+      
+      .details__item__client {
+        font-size: 12px;
+      }
+      
+      .details__item__env {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      
+      .details__item__version {
+        font-size: 12px;
+      }
+      
+      .details__lifecycle {
+      }
+      
+      .details__item__guarantee {
+        font-size: 12px;
+        display: flex;
+      }
+      
+      .details__item__time-left {
+        font-size: 12px;
+      }
+      
+      .details__item__qualification {
+        font-size: 12px;
+        color: #797979;
+      }
+      
+      .details__item__criticity {
+        font-size: 12px;
+      }
+      
+      .details__item__treat-before {
+        font-size: 12px;
+      }
+      
+      .details__item__request {
+        font-size: 14px;
+      }
+      
+      .attachment {
+        border-radius: 3px;
+        background-color: #f5f6fa;
+        border: none;
+        display: flex;
+        padding: 10px;
+        font-size: 12px;
+        cursor: pointer;
+        margin: 10px 0px;
+      }
+      
+      .attachment__name {
+        padding: 0 5px;
+      }
+      
+      .attachment__size {
+        color: #8c8c8c;
+        padding: 0 5px;
+      }
+      
+      .attachment__logo .fa {
+        padding: 0px 5px;
+      }
+      
+      .participants {
+        display: flex;
+        color: #ffffff;
+      }
+      
+      .participants__item {
+        font-size: 12px;
+        background-color: #000000;
+        padding: 5px;
+        margin: 10px 10px 10px 0;
+        border-radius: 3px;
+      }
+      .assigned-to {
+        display: flex;
+        align-items: center;
+        padding: 10px 10px 10px 0;
+      }
+      
+      .assigned-to__name {
+        font-size: 14px;
+        padding: 10px;
+      }
+      
+      .assigned-to__img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+      }
+      
+      .created-on__date {
+        font-size: 12px;
+        font-weight: bold;
+      }
+      
+      .created-on__name {
+        font-size: 12px;
+      }
+      
+}
