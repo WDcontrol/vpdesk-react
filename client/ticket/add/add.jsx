@@ -7,7 +7,7 @@ import {
 } from "@material-ui/icons";
 
 const TicketAdd = () => (
-    <div id="ticketAdd" />
+    <div id="ticketAdd" >
         <div className="card">
             <div className="top-bar">
                 <div className="top-bar__title">Création d'un nouveau ticket</div>
