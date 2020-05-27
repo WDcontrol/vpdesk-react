@@ -1,0 +1,24 @@
+#ticket-add-qualification {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+
+    .qualification__header, .criticity__header {
+        display: flex;
+        align-items: center;
+
+        .qualification__title, .criticity__title {
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 600;
+            color: #354656;
+        }
+        
+        svg {
+            width: 20px;
+        }
+    }
+}
