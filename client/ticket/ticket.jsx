@@ -1,15 +1,27 @@
-import React from 'react'
+import React, {useState} from "react"
 import "./ticket.scss"
+import Add from "./add/add.jsx"
 
 import {
     BugReport
   } from "@material-ui/icons";
+  
+const Ticket = () => {
+  const [popup, setPopup] = useState(false);
 
-const Ticket = () => (
+  const togglePopup = () => {
+    var element = document.getElementById("leftSideBar");
+    element.classList.toggle("zIndex-unset");
+    setPopup(!popup);
+  }
+
+  return (
     <div id="ticket">
-      {/* <iframe src="../ticketAdd">
-          <p>Your browser does not support iframes.</p>
-      </iframe> */}
+      {popup ? 
+          <Add
+            closePopup={()=> togglePopup()}
+          />
+          : null}
       <div className="action-bar">
         <div className="action-bar__tab">
           <div className="action-bar__tab__title">Mes tickets</div>
@@ -17,7 +29,7 @@ const Ticket = () => (
             Mes brouillons
           </div>
         </div>
-        <button className="action-bar__button">Nouveau ticket</button>
+        <button className="action-bar__button" onClick={() => togglePopup()}>Nouveau ticket</button>
       </div>
       <div className="main-content">
         <div className="ticket-section">
@@ -118,6 +130,7 @@ const Ticket = () => (
         </div>
       </div>
     </div>
-)
+  )
+}
 
 export default Ticket

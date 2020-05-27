@@ -6,6 +6,8 @@ import {
     GetApp
   } from "@material-ui/icons";
 
+import { File } from "../../components"
+
 const Contract = () => (
     <div id="contract">
         <div className="action-bar">
@@ -58,43 +60,12 @@ const Contract = () => (
                 </div>
                 <div className="contract__item contract__item_one-line attachment">
                 <div className="contract__item__label">Document</div>
-                <button className="attachment__item">
-                    <div className="attachment__logo">
-                    <InsertDriveFile/>
-                    </div>
-                    <div className="attachment__name">Nom_du_super_fichier.jpg</div>
-                    <div className="attachment__size">(48Ko)</div>
-                    <div className="attachment__logo">
-                    <GetApp/>
-                    </div>
-                </button><button className="attachment__item">
-                    <div className="attachment__logo">
-                    <InsertDriveFile/>
-                    </div>
-                    <div className="attachment__name">Nom_du_super_fichier.jpg</div>
-                    <div className="attachment__size">(48Ko)</div>
-                    <div className="attachment__logo">
-                    <GetApp/>
-                    </div>
-                </button><button className="attachment__item">
-                    <div className="attachment__logo">
-                    <InsertDriveFile/>
-                    </div>
-                    <div className="attachment__name">Nom_du_super_fichier.jpg</div>
-                    <div className="attachment__size">(48Ko)</div>
-                    <div className="attachment__logo">
-                    <GetApp/>
-                    </div>
-                </button><button className="attachment__item">
-                    <div className="attachment__logo">
-                    <InsertDriveFile/>
-                    </div>
-                    <div className="attachment__name">Nom_du_super_fichier.jpg</div>
-                    <div className="attachment__size">(48Ko)</div>
-                    <div className="attachment__logo">
-                    <GetApp/>
-                    </div>
-                </button>
+                <File name="nom" size="50kB" download />
+                <File name="nom" size="50kB" download />
+                <File name="nom" size="50kB" download />
+                <File name="nom" size="50kB" download />
+                <File name="nom" size="50kB" download />
+                
                 </div>
             </div>
             </div>

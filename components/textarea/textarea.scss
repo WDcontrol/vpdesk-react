@@ -1,0 +1,23 @@
+.textarea {
+    display: inline-block;
+    margin-bottom: 10px;
+    
+    .textarea__input {
+        border-radius: 3px;
+        border: 1px solid #374052;
+        padding: 10px;
+        width: 89%;
+    }
+    
+    .textarea__input::placeholder {
+        color: #a8aab7;
+    }
+    
+    .textarea__label {
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 8px;
+        background-color: #fff;
+        padding: 0 5px;
+    }
+}

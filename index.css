@@ -23,6 +23,10 @@ button {
 
 /* === Generic === */
 
+.zIndex-unset {
+  z-index:unset !important;
+}
+
 /* flex-direction */
 .fd-row {
   flex-direction: row;
@@ -30,6 +34,12 @@ button {
 
 .fd-column {
   flex-direction: column;
+}
+
+/* cursor */
+
+.clickable {
+  cursor:pointer;
 }
 
 /* text-align */
@@ -52,7 +62,6 @@ button {
 }
 
 /* display */
-
 .hide {
   display: none !important;
   visibility: hidden;

@@ -91,31 +91,6 @@
     color: #ef4f4a;
   }
   
-  .attachment__item {
-    border-radius: 3px;
-    background-color: #f5f6fa;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    margin: 2px;
-    display: inline-flex;
-    align-items: center;
-  }
-  
-  .attachment__name {
-    padding: 0 5px;
-  }
-  
-  .attachment__size {
-    color: #8c8c8c;
-    padding: 0 5px;
-  }
-  
-  .attachment__logo .MuiSvgIcon-root {
-    padding: 0px 5px;
-    font-size: 20px;
-  }
-  
   .facturation__item {
     display: flex;
     justify-content: space-between;
