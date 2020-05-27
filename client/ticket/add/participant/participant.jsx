@@ -10,6 +10,7 @@ const options = [
 
 const Participant = () => (
     <div id="ticket-add-participant">
+        <div className="title">Quelles sont les parties concernées</div>
         <Select isMulti options={options} placeholder="Choix des participants" />
         <div className="bottom">
             <button className="bottom__button">Sauvegarder</button>
