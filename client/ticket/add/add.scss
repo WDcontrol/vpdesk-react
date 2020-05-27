@@ -8,7 +8,7 @@
   z-index: 2;
   height: 100%;
   width: 100%;
-
+  
   .title {
     font-size: 16px;
     font-weight: 600;
@@ -53,24 +53,24 @@
   .top-bar__close {
     cursor: pointer;
   }
-
+  
   .bottom {
     justify-content: center;
     display: flex;
     width: 100%;
     padding: 50px 0;
   }
-
+  
   .bottom__button {
     padding: 10px 0px;
-    width: 60%;
+    width: 100%;
     color: white;
     background-color: #18C27F;
     font-family: "Open Sans";
     border: none;
     cursor: pointer;
   }
-
+  
   .bottom__button_disabled {
     background-color: #262A41;
     opacity: 0.2;
@@ -109,13 +109,14 @@
     padding-top: 50px;
   }
   
-  .lifecycle__elem_active .lifecycle__number {
-    background-color: #18c27f;
-    color: #ffffff;
-  }
-  
-  .lifecycle__elem_active .lifecycle__label {
+  .lifecycle__elem_active, .lifecycle__elem_done {
+    .lifecycle__number {
+      background-color: #18c27f;
+      color: #ffffff;
+    }
+    .lifecycle__label {
     color: #333333;
+    }
   }
   
   .lifecycle__elem {

@@ -1,7 +1,12 @@
 import React from 'react'
+import "./finalisation.scss"
 
 const Finalisation = () => (
-    <h1>Finalisation</h1>
+    <div id="ticket-add-finalisation">
+        <div className="bottom">
+            <button className="bottom__button">Retour au tableau de bord</button>
+        </div>
+    </div>
 )
 
 export default Finalisation ;

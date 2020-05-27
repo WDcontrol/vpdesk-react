@@ -9,6 +9,9 @@ const Description = () => (
         <Textarea rows={10} label="Requête" />
         <input className="attachments" type="file" multiple="multiple"/>
         <File name="name" size="50mB" close={() => alert("close !")} />
+        <div className="bottom">
+            <button className="bottom__button">Sauvegarder</button>
+        </div>
     </div>
 )
 

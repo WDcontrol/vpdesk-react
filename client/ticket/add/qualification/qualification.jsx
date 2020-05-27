@@ -1,10 +1,6 @@
 import React from 'react'
 import "./qualification.scss"
-import { RadioInput } from "../../../../components"
-
-import {
-    Help
-  } from "@material-ui/icons";
+import { RadioInput, Help } from "../../../../components"
 
 const Qualification = () => (
     <div id="ticket-add-qualification">
@@ -12,7 +8,7 @@ const Qualification = () => (
         <div className="qualification">
             <div className="qualification__header">
                 <div className="qualification__title">Qualification</div>
-                <Help />
+                <Help> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eligendi, iste error ut ex id repellat sint laborum ipsa qui totam excepturi blanditiis temporibus tenetur magnam, fuga cumque! Temporibus, deleniti? </Help>
             </div>
             <div className="qualification__radio radio">
                 <RadioInput name="qualification" value="bug" label="Bug" />
@@ -31,6 +27,9 @@ const Qualification = () => (
                 <RadioInput name="criticity" value="major" label="Majeure" />
                 <RadioInput name="criticity" value="minor" label="Mineure" />
             </div>
+        </div>
+        <div className="bottom">
+            <button className="bottom__button">Sauvegarder</button>
         </div>
     </div>
 )

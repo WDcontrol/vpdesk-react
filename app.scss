@@ -379,6 +379,9 @@
   background: linear-gradient(to right, #3d3f54 50%, #262a43 50%);
   background-size: 200% 100%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-leftSideBar.isOpen > .elem-container__wrapper {

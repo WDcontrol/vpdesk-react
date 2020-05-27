@@ -77,6 +77,9 @@ const Application = () => (
                 </div>
             </div>
         </div>
+        <div className="bottom">
+            <button className="bottom__button">Sauvegarder</button>
+        </div>
     </div>
 )
 

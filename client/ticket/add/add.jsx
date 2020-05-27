@@ -2,7 +2,8 @@ import React from "react"
 import "./add.scss"
 import { MemoryRouter, Route, Link, Redirect } from 'react-router-dom'
 import {
-    Close
+    Close,
+    Done
 } from "@material-ui/icons";
 
 import {
@@ -37,13 +38,15 @@ const TicketAdd = props => {
                     </div>
                     <div className="add-ticket__body">
                         <div className="lifecycle">
-                            <Link className="lifecycle__elem lifecycle__elem_active" to="/ticketAddApplication">
-                                <div className="lifecycle__number">1</div>
+                            <Link to="/ticketAddApplication" className="lifecycle__elem lifecycle__elem_done">
+                                <div className="lifecycle__number">
+                                    <Done/>
+                                </div>
                                 <div className="lifecycle__label">Application</div>
                             </Link>
                             <div className="lifecycle__ligne"></div>
 
-                            <Link to="/ticketAddDescription" className="lifecycle__elem">
+                            <Link to="/ticketAddDescription" className="lifecycle__elem lifecycle__elem_active">
                                 <div className="lifecycle__number">2</div>
                                 <div className="lifecycle__label">Description</div>
                             </Link>
@@ -73,9 +76,7 @@ const TicketAdd = props => {
                         <Route path="/ticketAddFinalisation" component={Finalisation} />
                         
                     </div>
-                    <div className="bottom">
-                        <button className="bottom__button">Sauvegarder</button>
-                    </div>
+                    
                 </div>
             </MemoryRouter>
         </div>

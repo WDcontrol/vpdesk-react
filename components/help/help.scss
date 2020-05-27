@@ -1,0 +1,32 @@
+.help {
+    .helpbox {
+        position: absolute;
+
+        .helpbox__tip {
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            background: transparent;
+            border: 10px solid #18C27F;
+            bottom: 1px;
+            left: 2px;
+            border-right-color: transparent;
+            border-left-color: transparent;
+            border-bottom-color: transparent;  
+        }
+        
+        .helpbox__body {
+            min-width: 62px;
+            max-width: 300px;
+            height: auto;
+            margin: 20px 10px;
+            padding: 5px;
+            background-color: #18C27F;
+            border-radius: 3px;
+            border: 5px solid #18C27F;
+            color: #ffffff;
+            margin-top: -36%;
+            margin-left: -10%;
+        }
+    }
+}
